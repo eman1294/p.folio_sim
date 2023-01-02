@@ -1,0 +1,86 @@
+/*---------------------tablet---------------*/
+@media (max-width:991px) {
+
+    header {
+        background-position: 50%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .about .about-content .content {
+        border: none !important;
+    }
+
+    .services .service-content .row {
+        justify-content: space-between;
+    }
+
+    .bio .bio-pic img {
+        margin-top: 165px;
+    }
+
+    .bio .bio-item .bio-head::before {
+        height: 401px;
+    }
+
+    .r2 .bio-item .bio-head::before {
+        height: 377px;
+    }
+
+    .location .contact-box {
+        left: 100px;
+    }
+}
+
+/*---------------------mobile---------------*/
+@media(max-width:757px) {
+    .container {
+        width: 100%;
+    }
+
+    .bio .bio-pic img {
+        margin-top: 0px;
+    }
+
+    .bio .bio-item .bio-head::before {
+        height: 405px;
+    }
+
+    .contact .contact-btn a span {
+        font-size: 8px;
+    }
+
+    location .contact-box {
+        left: 0;
+
+    }
+
+    .location .contact-box .part .loc {
+        display: none;
+
+    }
+
+    .location .contact-box .part .ea {
+        display: none;
+    }
+
+    .location .contact-box .part .cn {
+        display: none;
+    }
+
+    .location .contact-box {
+        left: 45px;
+
+    }
+
+    .location .contact-box .part {
+        width: 30%;
+        justify-content: space-around;
+    }
+
+    .resume .resume-content {
+        text-align: center;
+    }
+}
